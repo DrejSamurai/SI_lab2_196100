@@ -49,7 +49,6 @@ V(G) = 8
 Резултатите ги представувам во следната табела: 
 - * branches
 - / doesn't branch
-- 
 <img src = "images/part 1.png" height="800" width="800">
 
 ### 6. Објаснување на напишаните unit tests
