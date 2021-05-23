@@ -45,5 +45,15 @@ V(G) = 8
 #### Четврт услов else ќе влезе доколку не е влезен во предходните други услови.
 
 ### 5.Every branch критериумот
-
+За ова тестирање ги запишувам сите можни branch опции на функцијата function и ги тестирам со произволен input value на вредностите hrs,min и sec.
+Резултатите ги представувам во следната табела: 
+- * branches
+- / doesn't branch
+- 
 <img src = "images/part 1.png" height="800" width="800">
+
+### 6. Објаснување на напишаните unit tests
+
+Напишаните 4 тестови служат да проверат дали функцијата function работи
+- functionTest() и functionTest2() се тестира со assertEquals за да видиме дали за даден input ќе го добиеме посаканиот output
+- functionTestRuntimeExceptions() и functionTestRuntimeExceptions2() се тестира со assertThrows за дали со даден погрешен input функцијата function ќе го фрли посакуваниот runTimeException.
